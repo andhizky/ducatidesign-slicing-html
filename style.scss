@@ -1,0 +1,41 @@
+body {
+    background-color:#FFFFFF;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    padding: 30px;
+    align-items: center;
+    .logo {
+        display: flex;
+        justify-content: left;
+        img {
+
+        }
+    }
+    nav {
+        flex: 1;
+        ul {
+            list-style: none;
+            padding: 60px;
+            li {
+                display: inline;
+                font-size: 16px;
+                text-transform: uppercase;
+                a {
+                    display: inline-block;
+                    color: #040404;
+                    padding: 75px;
+                }
+            }
+        }
+    }
+}
+
+.icon {
+    position: right;
+    /* Adjust these values accordingly */
+    top: 5px;
+    left: 5px;
+  }
